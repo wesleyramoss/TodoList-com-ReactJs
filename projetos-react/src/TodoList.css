@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+
+body{
+    background-color: #5755FE;
+}
+
+h1{
+    font-weight: 900;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    margin: 30px auto;
+    width: 600px;
+    height: 40px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+input{
+    background-color: #453F78;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    height: 60px;
+    padding-left: 30px;
+    color: #fff;
+}
+
+.add{
+    position: absolute;
+    right: 0;
+    height: 62px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border: none;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.add:hover{
+    background-color: #00224D;
+    color: #fff;
+    transition: 0.2s;
+}
+
+.listaDeTarefas{
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    width: 600px;
+    margin: auto;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    background-color: #453F78;
+    border: 1px solid #555;
+    margin-bottom: 10px;
+}
+
+.item:hover{
+    background-color: #00224D;
+}
+
+.item span{
+    color: #fff;
+    padding-left: 20px;
+    padding: 10px 15px;
+}
+
+.btn-complete{
+    background: none;
+    border: none;
+    color: #fff;
+}
+
+.btn-task{
+    background: none;
+    border: none;
+    color: #fff;
+}
+
+.completo{
+    background-color: #1e1f2e;
+    text-decoration: line-through;
+}
+
+.deleteAll{
+    border: 1px solid #ff004c;
+    background: none;
+    padding: 15px;
+    color: #fff;
+    border-radius: 7px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.deleteAll:hover{
+    background-color: #ff004c;
+    color: #fff;
+    transition: 0.2s;
+}
